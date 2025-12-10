@@ -1,0 +1,79 @@
+body {
+  font-family: "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  background-color: #f7fbff; /* custom background color (light theme) */
+  color: #1a1a1a; /* font color rule */
+  margin: 0;
+  padding: 0 16px 48px 16px;
+  line-height: 1.5;
+}
+
+/* 2. nav */
+.topnav {
+  background: #ffffff;
+  border-bottom: 1px solid #e0e0e0;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+/* 3. hero */
+.hero {
+  background: linear-gradient(180deg,#ffffff 0%, #eef6ff 100%);
+  padding: 28px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+/* 4. lead */
+.lead {
+  color: #333a56;
+  font-size: 1.05rem;
+}
+
+/* 5. three div cards (positioning & styling) */
+.card {
+  background: #ffffff;
+  border: 1px solid #dde7f5;
+  padding: 18px;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  box-shadow: 0 1px 6px rgba(20,30,50,0.04);
+}
+
+/* Each card slightly different */
+#bio { border-left: 6px solid #4a90e2; }
+#evidence { border-left: 6px solid #50c878; }
+#media { border-left: 6px solid #f5a623; }
+
+/* image style */
+.hero-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  display: block;
+  margin-bottom: 8px;
+}
+
+/* media wrappers */
+.video-wrap, .tableau-wrap {
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+/* extra (anchor area) */
+.extra {
+  padding: 12px;
+  background: #fffdf6;
+  border: 1px dashed #f1c27d;
+}
+
+/* footer */
+.site-footer {
+  margin-top: 26px;
+  padding-top: 10px;
+  border-top: 1px solid #e9eef8;
+}
+
+/* small responsive tweaks */
+@media (min-width: 900px) {
+  body { max-width: 900px; margin-left: auto; margin-right: auto; }
+}
